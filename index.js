@@ -13,6 +13,24 @@ bot.hears([/thanks/i, /cheers/i, /thank you/i, /ta/i, /thx/i, /ty/i], function(m
   session.send("No problem!")
 });
 
+
+bot.hears([/lame joke/i], function(message, session) {
+  session.send("A horse walked into a bar. Several people left seeing the potential danger in the situation.")
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 bot.hears([/Heather/i, /heather/i], function(message, session) {
   session.send("Yes?")
 });
